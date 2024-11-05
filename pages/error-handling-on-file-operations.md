@@ -13,7 +13,7 @@ tags:
     - panic!
 ---
 
-{% include file="MeDJG7EumdM" %}
+{% youtube id="MeDJG7EumdM" %}
 
 
 2024-11-05-error-handling-on-file-operations-in-rust-in-hebrew.mp4
