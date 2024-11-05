@@ -1,5 +1,5 @@
 ---
-title: "Lifetime in a function with one paramater"
+title: אורך חיים בפונקציה עם פרמטר אחד
 timestamp: 2024-11-01T14:30:01
 tags:
   - Rust
