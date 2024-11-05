@@ -36,7 +36,7 @@ jobs:
         run: |
           ./code-maven -V
 
-       - name: Generate pages
+      - name: Generate pages
         run: |
           ./code-maven web
 
