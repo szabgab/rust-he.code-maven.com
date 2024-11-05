@@ -32,7 +32,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Generate pages
+      - name: Version
+        run: |
+          ./code-maven -V
+
+       - name: Generate pages
         run: |
           ./code-maven web
 
