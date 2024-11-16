@@ -1,5 +1,5 @@
 ---
-title: "Iterate over vector of numbers in Rust"
+title: איטרציה על ווקטור של מספרים בראסט
 timestamp: 2024-10-29T16:30:01
 tags:
   - Rust
