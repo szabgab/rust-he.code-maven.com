@@ -17,9 +17,9 @@ show_related: true
 ---
 
 
-{% youtube id="Q50Hm7eLSTE" %}
+{% youtube id="Q50Hm7eLSTE" file="using-astronvim-for-rust-development.mp4" %}
 
-using-astronvim-for-rust-development.mp4
+
 
 * [Meir Kriheli](https://www.meirkriheli.com/)
 * [Meir Kriheli on Github](https://github.com/MeirKriheli)

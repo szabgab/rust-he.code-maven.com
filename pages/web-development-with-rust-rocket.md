@@ -14,9 +14,8 @@ show_related: true
 ---
 
 
-{% youtube id="JZxYwYW4fjI" %}
+{% youtube id="JZxYwYW4fjI" file="web-development-with-rocket-in-hebrew-2024-05-23.mp4" %}
 
-web-development-with-rocket-in-hebrew-2024-05-23.mp4
 
 * [Rocket](https://rocket.rs/)
 * [Rocket starter](https://crates.io/crates/rocket-starter)

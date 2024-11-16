@@ -13,10 +13,7 @@ tags:
     - panic!
 ---
 
-{% youtube id="MeDJG7EumdM" %}
-
-
-2024-11-05-error-handling-on-file-operations-in-rust-in-hebrew.mp4
+{% youtube id="MeDJG7EumdM" file="2024-11-05-error-handling-on-file-operations-in-rust-in-hebrew.mp4" %}
 
 
 [קוד להעתקה](https://rust.code-maven.com/slides/rust/error-handling-in-file-operations)

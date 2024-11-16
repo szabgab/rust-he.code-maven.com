@@ -16,9 +16,9 @@ show_related: true
 ---
 
 
-{% youtube id="j6_71KdJ5sE" %}
+{% youtube id="j6_71KdJ5sE" file="2024-11-01-lifetime-in-function-with-one-parameter-rust-hebrew.mp4" %}
 
-2024-11-01-lifetime-in-function-with-one-parameter-rust-hebrew.mp4
+
 
 
 [source code](https://rust.code-maven.com/slides/rust/function-receiving-and-returning-one-reference.html)

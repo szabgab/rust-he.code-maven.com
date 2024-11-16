@@ -14,9 +14,8 @@ archive: true
 show_related: true
 ---
 
-{% youtube id="gWbMC9_DYeY" %}
+{% youtube id="gWbMC9_DYeY" file="surrealdb-create-select-in-hebrew-2024-10-27.mp4" %}
 
-surrealdb-create-select-in-hebrew-2024-10-27.mp4
 
 [code](https://rust.code-maven.com/slides/rust/insert-and-select)
 
