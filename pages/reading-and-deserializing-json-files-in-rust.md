@@ -1,6 +1,6 @@
 ---
 title: Reading, parsing and deserializing JSON files in Rust - קריאת קבצי ג'ייסון בראסט
-timestamp: 2024-12-08T08:30:01
+timestamp: 2024-12-09T08:30:01
 author: szabgab
 published: true
 description:
