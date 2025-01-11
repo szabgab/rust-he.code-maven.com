@@ -7,5 +7,6 @@ description: Rust by Example
 tags:
 ---
 
-* [ראסט עם דוגמאות: שלום עולם](/rust-by-example-hello-world)
+* [שלום עולם](/rust-by-example-hello-world)
+* [הערות](/rust-by-example-comments)
 
