@@ -9,4 +9,4 @@ tags:
 
 * [שלום עולם](/rust-by-example-hello-world)
 * [הערות](/rust-by-example-comments)
-
+* [קרגו רון](/rust-by-example-cargo-run)
