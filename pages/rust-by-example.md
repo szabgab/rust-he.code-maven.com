@@ -7,6 +7,7 @@ description: Rust by Example
 tags:
 ---
 
-* [שלום עולם](/rust-by-example-hello-world)
-* [הערות](/rust-by-example-comments)
-* [קרגו רון](/rust-by-example-cargo-run)
+* 1 [שלום עולם](/rust-by-example-hello-world)
+* 1.1 [הערות](/rust-by-example-comments)
+* [קרגו ראן](/rust-by-example-cargo-run)
+* 1.2 [הדפסות מפורמטות](/rust-by-example-formatted-print)

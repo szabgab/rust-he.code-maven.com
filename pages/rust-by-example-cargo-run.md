@@ -1,5 +1,5 @@
 ---
-title: "ראסט עם דוגמאות: קרגו רון"
+title: "ראסט עם דוגמאות: קרגו ראן"
 timestamp: 2025-01-13T11:50:01
 author: szabgab
 published: true
