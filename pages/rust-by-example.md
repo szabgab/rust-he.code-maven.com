@@ -11,3 +11,4 @@ tags:
 * 1.1 [הערות](/rust-by-example-comments)
 * [קרגו ראן](/rust-by-example-cargo-run)
 * 1.2 [הדפסות מפורמטות](/rust-by-example-formatted-print)
+* 1.2.1 [הדפסת דבוג](/rust-by-example-debug-print)
