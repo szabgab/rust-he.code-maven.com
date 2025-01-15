@@ -8,7 +8,7 @@ tags:
 todo:
 ---
 
-{% youtube id="XetGcYUQMQs" file="hebrew-rust-by-example-01-02-01-debug-print.mp" %}
+{% youtube id="XetGcYUQMQs" file="hebrew-rust-by-example-01-02-01-debug-print.mp4" %}
 
 * [Debug print](https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_debug.html)
 
