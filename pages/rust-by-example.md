@@ -16,5 +16,5 @@ tags:
 * 1.2.2.1 [הדפסות דיספלאי דוגמה עם רשימה](/rust-by-example-display-testcase-list)
 * 1.2.3 [הדפסות מפורמטת של עיר וצבע](/rust-by-example-formatting-city-and-color)
 
-
+* 2 [טיפוסים בסיסיים](/rust-by-example-primitives)
 
