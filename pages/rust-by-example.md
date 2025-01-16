@@ -13,3 +13,6 @@ tags:
 * 1.2 [הדפסות מפורמטות](/rust-by-example-formatted-print)
 * 1.2.1 [הדפסת דבוג](/rust-by-example-debug-print)
 * 1.2.2 [דיספלאי](/rust-by-example-display)
+* 1.2.2.1 [הדפסות דיספלאי דוגמה עם רשימה](/rust-by-example-display-testcase-list)
+
+

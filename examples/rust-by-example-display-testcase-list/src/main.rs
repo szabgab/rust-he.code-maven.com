@@ -1,0 +1,43 @@
+#![allow(unused)]
+
+use std::fmt; // Import the `fmt` module.
+
+// Define a structure named `List` containing a `Vec`.
+#[derive(Debug)]
+struct List(Vec<i32>);
+
+impl fmt::Display for List {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        // Extract the value using tuple indexing,
+        // and create a reference to `vec`.
+        let vec = &self.0;
+
+        // join elements of vec
+        let res = vec
+            .iter()
+            .map(|x| x.to_string())
+            .collect::<Vec<String>>()
+            .join("; ");
+        write!(f, "[{}]", res)
+
+        // write!(f, "[")?;
+
+        // // Iterate over `v` in `vec` while enumerating the iteration
+        // // count in `count`.
+        // for (count, v) in vec.iter().enumerate() {
+        //     // For every element except the first, add a comma.
+        //     // Use the ? operator to return on errors.
+        //     if count != 0 { write!(f, ", ")?; }
+        //     write!(f, "{}", v)?;
+        // }
+
+        // // Close the opened bracket and return a fmt::Result value.
+        // write!(f, "]")
+    }
+}
+
+fn main() {
+    let v = List(vec![1, 2, 3]);
+    println!("debug: {:?}", v);
+    println!("display: {}", v);
+}
