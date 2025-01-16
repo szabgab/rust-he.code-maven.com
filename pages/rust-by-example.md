@@ -14,5 +14,7 @@ tags:
 * 1.2.1 [הדפסת דבוג](/rust-by-example-debug-print)
 * 1.2.2 [דיספלאי](/rust-by-example-display)
 * 1.2.2.1 [הדפסות דיספלאי דוגמה עם רשימה](/rust-by-example-display-testcase-list)
+* 1.2.3 [הדפסות מפורמטת של עיר וצבע](/rust-by-example-formatting-city-and-color)
+
 
 
