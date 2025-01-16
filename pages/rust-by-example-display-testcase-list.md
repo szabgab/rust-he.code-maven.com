@@ -1,6 +1,6 @@
 ---
 title: "ראסט עם דוגמאות: הדפסות דיספלאי דוגמה עם רשימה"
-timestamp: 2025-01-15T13:30:01
+timestamp: 2025-01-16T12:30:01
 author: szabgab
 published: true
 description: "Rust by Example: Display testcase list"
