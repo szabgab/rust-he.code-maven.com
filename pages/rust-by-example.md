@@ -21,3 +21,5 @@ tags:
 * 2.2 [טאפלים](/rust-by-example-tuples)
 * 2.3 [מערכים וחתכים](/rust-by-example-arrays-and-slices)
 
+* 3 טיפוסים מלאכותיים
+* 3.1 [סטראקטים - מבנים](/rust-by-example-structures)
