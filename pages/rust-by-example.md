@@ -17,4 +17,7 @@ tags:
 * 1.2.3 [הדפסות מפורמטת של עיר וצבע](/rust-by-example-formatting-city-and-color)
 
 * 2 [טיפוסים בסיסיים](/rust-by-example-primitives)
+* 2.1 [ערכים ואופרטורים](/rust-by-example-literals-and-operators)
+
+
 
