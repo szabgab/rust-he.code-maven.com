@@ -19,5 +19,5 @@ tags:
 * 2 [טיפוסים בסיסיים](/rust-by-example-primitives)
 * 2.1 [ערכים ואופרטורים](/rust-by-example-literals-and-operators)
 * 2.2 [טאפלים](/rust-by-example-tuples)
-
+* 2.3 [מערכים וחתכים](/rust-by-example-arrays-and-slices)
 
