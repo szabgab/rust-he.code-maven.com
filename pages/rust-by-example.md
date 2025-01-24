@@ -24,3 +24,4 @@ tags:
 * 3 טיפוסים מלאכותיים
 * 3.1 [סטראקטים - מבנים](/rust-by-example-structures)
 * 3.2 [אנומים](/rust-by-example-enums)
+* 3.2.1 [use](/rust-by-example-enums-use)

@@ -10,7 +10,7 @@ todo:
 
 {% youtube id="CAukcOujGD4" file="hebrew-rust-by-example-03-02-enums.mp4" %}
 
-* [Structures](https://doc.rust-lang.org/stable/rust-by-example/custom_types/enum/enum_use.html)
+* [Enums](https://doc.rust-lang.org/stable/rust-by-example/custom_types/enum.html)
 
 ---
 
