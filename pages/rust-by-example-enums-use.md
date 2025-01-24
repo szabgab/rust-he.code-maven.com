@@ -1,5 +1,5 @@
 ---
-title: "ראסט עם דוגמאות: אנומים"
+title: "ראסט עם דוגמאות: אנומים ושימוש"
 timestamp: 2025-01-24T12:20:01
 author: szabgab
 published: true
