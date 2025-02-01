@@ -12,6 +12,9 @@ todo:
 
 דף הראשי
 
+* [קורס ראסט (Rust)](/rust)
+* [קורס ראסט (Rust)](/rust-course)
+
 ## פירסומים אחרונים
 
 {% latest limit=5 %}
