@@ -15,6 +15,7 @@ todo:
 * [קורס ראסט (Rust)](/rust)
 * [קורס ראסט (Rust)](/rust-course)
 * [קורס ראסט (Rust)](/experimental-rust-course)
+* [לומדים ראסט ביחד](/learning-rust-together)
 
 ## פירסומים אחרונים
 
