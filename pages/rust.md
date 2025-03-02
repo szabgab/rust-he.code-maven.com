@@ -28,8 +28,8 @@ show_related: false
 * [לומדים ראסט ביחד](/learn-rust-together) 2023.06.18 ~ שעה וחצי
 
 
+* [פיתוח אפליקציות וואב בעזרת ראסט רוקט](/web-development-with-rust-rocket)
+* [Surrealdb CREATE and SELECT using Rust](/surrealdb-create-select-using-rust
+* [איטרציה על ווקטור של מספרים בראסט](/iterate-over-vector-of-numbers-in-rust
 
 
-<!--
-    <li><a href="/rust-"></a></li>
--->
