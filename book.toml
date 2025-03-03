@@ -1,17 +1,16 @@
 [book]
 authors = ["Gabor Szabo"]
-#text-direction = "rtl"
 language = "he"
 src = "src"
-title = "מביני קוד - מביני פייתון"
+title = "מביני קוד - מביני ראסט"
 # description =
 
 
 # Add github icon to the menu
 [output.html]
-git-repository-url = "https://github.com/szabgab/python-he.code-maven.com"
+git-repository-url = "https://github.com/szabgab/rust-he.code-maven.com"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/szabgab/python-he.code-maven.com/edit/main/{path}"
+edit-url-template = "https://github.com/szabgab/rust-he.code-maven.com/edit/main/{path}"
 
 # Remove the printer icon from the menu
 [output.html.print]
