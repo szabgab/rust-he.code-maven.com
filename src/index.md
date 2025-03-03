@@ -1,22 +1,21 @@
----
-title: תכנות ראסט בעברית
-timestamp: 2024-11-01T12:30:01
-published: true
-author: szabgab
-description: סרטונים ומאמרים על תכנות בשפת ראסט
-tags:
-    - blog
-todo:
-    - TODO
----
+# תכנות ראסט בעברית
 
-דף הראשי
+סרטונים ומאמרים על תכנות בשפת [Rust - ראסט](https://www.rust-lang.org/)
 
-* [קורס ראסט (Rust)](/rust)
-* [קורס ראסט (Rust)](/rust-course)
-* [קורס ראסט (Rust)](/experimental-rust-course)
-* [לומדים ראסט ביחד](/learning-rust-together)
+* [למה להשתמש בראסט? הסיבות הכלכליות](./why-use-rust.md)
 
-## פירסומים אחרונים
+* [ראסט עם דוגמאות](./rust-by-example.md) 2025-01-10
 
-{% latest limit=5 %}
+
+## לומדים לתכנת בראסט
+
+* [קורס תכנות ראסט](./rust-course.md) 2024.02.25  7:11:54 21 פרקים הראשונים הם
+
+
+## הקלטות ישנות יותר
+
+* [קורס ראסט ניסיוני](./experimental-rust-course.md) 2023.07.28 ~ שעתים
+* [לומדים ראסט ביחד](./learning-rust-together.md) 2023.06.18 ~ שעה וחצי
+
+
+

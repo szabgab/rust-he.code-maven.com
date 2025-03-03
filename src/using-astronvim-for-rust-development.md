@@ -1,24 +1,7 @@
----
-title: "Using AstroNvim for Rust development"
-timestamp: 2024-01-01T07:30:01
-tags:
-  - Rust
-  - nvim
-  - NeoVim
-  - vim
-types:
-  - screencast
-published: false
-books:
-  - rust
-author: szabgab
-archive: true
-show_related: true
----
+# Using AstroNvim for Rust development
 
 
-{% youtube id="Q50Hm7eLSTE" file="using-astronvim-for-rust-development.mp4" %}
-
+{% embed youtube id="Q50Hm7eLSTE" file="using-astronvim-for-rust-development.mp4" %}
 
 
 * [Meir Kriheli](https://www.meirkriheli.com/)
@@ -71,6 +54,9 @@ apt install ripgrep
 
 ```
 
-<!--
-    <li><a href=""></a></li>
--->
+
+  - Rust
+  - nvim
+  - NeoVim
+  - vim
+

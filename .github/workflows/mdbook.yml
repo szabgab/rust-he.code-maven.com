@@ -24,24 +24,29 @@ jobs:
       - name: Checkout site source
         uses: actions/checkout@v4
 
-      - name: Download processor
+      - name: Download mdBook
         run: |
-          wget https://ssg.code-maven.com/code-maven
-          chmod +x code-maven
+          set -x
+          wget https://github.com/rust-lang/mdBook/releases/download/v0.4.44/mdbook-v0.4.44-x86_64-unknown-linux-gnu.tar.gz
+          tar xzf mdbook-v0.4.44-x86_64-unknown-linux-gnu.tar.gz
+          wget https://github.com/MR-Addict/mdbook-embedify/releases/download/0.2.11/mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu.zip
+          unzip mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu.zip
+          mv mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu/mdbook-embedify .
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Version
-        run: |
-          ./code-maven -V
+          #- name: Setup Pages
+          #  uses: actions/configure-pages@v4
 
       - name: Generate pages
         run: |
-          ./code-maven web
+          export PATH=$PATH:.
+          ./mdbook build
+          perl -i -p -e 's{href="index.html"}{href="."}g' book/*.html book/toc.js
+          perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g' book/*.html book/toc.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: book/
 
   # Deployment job
   deploy:
@@ -54,3 +59,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

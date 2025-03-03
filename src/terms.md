@@ -1,17 +1,12 @@
----
-title: מונחים בעברית
-timestamp: 2024-11-05T18:00:01
-author: szabgab
-published: true
-description: מילונ מונחים של שפת תוכנה ראסט
----
+# מונחים בעברית
+
+מילונ מונחים של שפת תוכנה ראסט
 
 הועתק מהתרגום של ספר ראסט:
 
 [ספר ראסט](https://github.com/IttayWeiss/rustbook-heb)
 
 [מקור](https://github.com/IttayWeiss/rustbook-heb/blob/main/HebEngTerms.md)
-
 
 
 

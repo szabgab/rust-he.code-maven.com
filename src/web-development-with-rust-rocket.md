@@ -1,20 +1,6 @@
----
-title: "פיתוח אפליקציות וואב בעזרת ראסט רוקט"
-timestamp: 2024-05-23T18:50:01
-tags:
-  - Rust
-types:
-  - screencast
-published: true
-books:
-  - rust
-author: szabgab
-archive: true
-show_related: true
----
+# פיתוח אפליקציות וואב בעזרת ראסט רוקט
 
-
-{% youtube id="JZxYwYW4fjI" file="web-development-with-rocket-in-hebrew-2024-05-23.mp4" %}
+{% embed youtube id="JZxYwYW4fjI" file="web-development-with-rocket-in-hebrew-2024-05-23.mp4" %}
 
 
 * [Rocket](https://rocket.rs/)

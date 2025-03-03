@@ -1,21 +1,6 @@
----
-title: "ראסט דיגר"
-timestamp: 2023-11-13T10:30:01
-tags:
-  - Rust
-description: "Rust Digger to report about common practices in rust Crates"
-types:
-  - screencast
-published: true
-books:
-  - rust
-author: szabgab
-archive: true
-show_related: true
----
+# ראסט דיגר
 
-
-{% youtube id="WiiMj60RXkE" file="rust-digger-in-hebrew-2023-11-12.mp4" %}
+{% embed youtube id="WiiMj60RXkE" file="rust-digger-in-hebrew-2023-11-12.mp4" %}
 
 [ראסט דיגר](https://rust-digger.code-maven.com/)
 
@@ -38,3 +23,5 @@ show_related: true
 [Ruby Digger](https://ruby-digger.code-maven.com/)
 
 
+2023-11-13T10:30:01
+Rust Digger to report about common practices in rust Crates

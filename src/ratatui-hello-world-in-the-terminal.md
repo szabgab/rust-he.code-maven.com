@@ -1,17 +1,10 @@
----
-title: Rust Ratatui Hello World in the terminal - מבוא לאפליקציה בטרמינל -  ראסט
-timestamp: 2024-12-09T07:30:01
-author: szabgab
-published: true
-description:
-tags:
-    - TUI
-    - Ratatui
----
+# Rust Ratatui Hello World in the terminal - מבוא לאפליקציה בטרמינל -  ראסט
 
-
-{% youtube id="LD26kS_0K4Y" file="2024-12-04-ratatui-hello-world-in-hebrew.mp4" %}
+{% embed youtube id="LD26kS_0K4Y" file="2024-12-04-ratatui-hello-world-in-hebrew.mp4" %}
 
 
 [Ratatui](https://ratatui.rs/)
 
+
+    - TUI
+    - Ratatui

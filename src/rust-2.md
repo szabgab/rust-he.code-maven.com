@@ -1,17 +1,4 @@
----
-title: "התקנת ראסט והרצאת התוכנה הראשונה"
-timestamp: 2023-06-18T12:30:03
-tags:
-  - Rust
-types:
-  - screencast
-published: true
-books:
-  - rust
-author: szabgab
-archive: true
-show_related: true
----
+# התקנת ראסט והרצאת התוכנה הראשונה
 
 
 דבר ראשון צריך להתקין ראסט על המחשב.
@@ -25,4 +12,4 @@ show_related: true
 איך מקמפלים (מילה יפה בעברית, נכון?) ואיך מריצים את התור.
 
 
-{% youtube id="WlQhTWxuONg" file="he-rust-2.mp4" %}
+{% embed youtube id="WlQhTWxuONg" file="he-rust-2.mp4" %}

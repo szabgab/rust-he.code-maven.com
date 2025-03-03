@@ -1,16 +1,11 @@
----
-title: "ראסט עם דוגמאות: הדפסות דבוג"
-timestamp: 2025-01-15T11:30:01
-author: szabgab
-published: true
-description: "Rust by Example: Debug print"
-tags:
-todo:
----
+# ראסט עם דוגמאות: הדפסות דבוג
 
-{% youtube id="XetGcYUQMQs" file="hebrew-rust-by-example-01-02-01-debug-print.mp4" %}
+{% embed youtube id="XetGcYUQMQs" file="hebrew-rust-by-example-01-02-01-debug-print.mp4" %}
 
 * [Debug print](https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_debug.html)
 
-{% include file="examples/rust-by-example-debug-print/src/main.rs" %}
+```rust
+{{#include examples/rust-by-example-debug-print/src/main.rs }}
+```
 
+Rust by Example: Debug print
