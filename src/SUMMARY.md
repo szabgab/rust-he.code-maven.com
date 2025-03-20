@@ -1,8 +1,8 @@
 # Summary
 
 - [תכנות ראסט בעברית](./index.md)
-  - [טיפול שגיאות של מערכת הקבצים בראסט](./error-handling-on-file-operations.md)
-  - [הרחבת השפה של ליקויד בראסט עם מילה ללא פרמטרים](./extend-the-liquid-templates-with-tag-without-parameter.md)
+  - [טיפול השגיאות של מערכת הקבצים בראסט](./error-handling-on-file-operations.md)
+  - [הרחבת השפה של ליקוויד בראסט עם מילה ללא פרמטרים](./extend-the-liquid-templates-with-tag-without-parameter.md)
   - [איטרציה על ווקטור של מספרים בראסט](./iterate-over-vector-of-numbers-in-rust.md)
   - [משך חיים בפונקציה עם פרמטר אחד](./lifetime-in-function-with-one-parameter.md)
   - [Rust Ratatui Hello World in the terminal - מבוא לאפליקציה בטרמינל -  ראסט](./ratatui-hello-world-in-the-terminal.md)
