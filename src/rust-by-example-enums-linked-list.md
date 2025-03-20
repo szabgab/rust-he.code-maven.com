@@ -11,7 +11,7 @@
 ## main.rs
 
 ```rust
-{{#include src/examples/rust-by-example/enums-linked-list/src/main.rs }}
+{{#include examples/rust-by-example/enums-linked-list/src/main.rs }}
 ```
 
 </div>
