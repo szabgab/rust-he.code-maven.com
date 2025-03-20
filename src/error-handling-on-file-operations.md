@@ -4,13 +4,10 @@
 
 {% embed youtube id="MeDJG7EumdM" file="2024-11-05-error-handling-on-file-operations-in-rust-in-hebrew.mp4" %}
 
-```rust
-{{#include examples/files/error-in-file-operation/src/main.rs }}
-```
 
 <div dir="ltr">
 
-Error handling of file operations in Rust.
+## Error handling of file operations in Rust.
 
 - unwrap
 - except
@@ -18,5 +15,18 @@ Error handling of file operations in Rust.
 - Err
 - Ok
 - panic!
+
+## Cargo.toml
+
+```toml
+{{#include examples/files/error-in-file-operation/Cargo.toml }}
+```
+
+## main.rs
+
+```rust
+{{#include examples/files/error-in-file-operation/src/main.rs }}
+```
+
 </div>
 
