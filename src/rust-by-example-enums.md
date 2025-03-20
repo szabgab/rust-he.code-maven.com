@@ -2,9 +2,13 @@
 
 {% embed youtube id="CAukcOujGD4" file="hebrew-rust-by-example-03-02-enums.mp4" %}
 
+<div dir="ltr">
+
+## Rust by Example: Enums
+
 * [Enums](https://doc.rust-lang.org/stable/rust-by-example/custom_types/enum.html)
 
 * [Exploring Enums with Yoni Peleg - מגלים את העולם של אנומים עם יוני פלג](./exploring-enums-with-yoni-peleg.md)
 
+</div>
 
-Rust by Example: Enums
