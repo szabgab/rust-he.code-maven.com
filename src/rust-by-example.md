@@ -19,6 +19,7 @@
   * 3.2 [אנומים](./rust-by-example-enums.md)
     * 3.2.1 [use](./rust-by-example-enums-use.md)
     * 3.2.2 [C-like כמו בשפת C](./rust-by-example-enums-c-like.md)
+    * 3.2.3 [ראסט עם דוגמאות: רשימה מקושרת עם אנומים](./rust-by-example-enums-linked-list.md)
 
 
 <div dir="ltr">
