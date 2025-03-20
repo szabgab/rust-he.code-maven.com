@@ -20,6 +20,10 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      MDBOOK_VERSION: 0.4.44
+      EMBEDIFY_VERSION: 0.2.11
+      ALERTS_VERSION: 0.7.0
     steps:
       - name: Checkout site source
         uses: actions/checkout@v4
@@ -27,21 +31,28 @@ jobs:
       - name: Download mdBook
         run: |
           set -x
-          wget https://github.com/rust-lang/mdBook/releases/download/v0.4.44/mdbook-v0.4.44-x86_64-unknown-linux-gnu.tar.gz
-          tar xzf mdbook-v0.4.44-x86_64-unknown-linux-gnu.tar.gz
-          wget https://github.com/MR-Addict/mdbook-embedify/releases/download/0.2.11/mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu.zip
-          unzip mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu.zip
-          mv mdbook-embedify-0.2.11-x86_64-unknown-linux-gnu/mdbook-embedify .
+          wget https://github.com/rust-lang/mdBook/releases/download/v${MDBOOK_VERSION}/mdbook-v${MDBOOK_VERSION}-x86_64-unknown-linux-gnu.tar.gz
+          tar xzf mdbook-v${MDBOOK_VERSION}-x86_64-unknown-linux-gnu.tar.gz
+
+          wget https://github.com/MR-Addict/mdbook-embedify/releases/download/${EMBEDIFY_VERSION}/mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu.zip
+          unzip mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu.zip
+          mv mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu/mdbook-embedify .
+
+          wget https://github.com/lambdalisue/rs-mdbook-alerts/releases/download/v${ALERTS_VERSION}/mdbook-alerts-x86_64-unknown-linux-gnu
+          mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
+          chmod +x mdbook-alerts
 
           #- name: Setup Pages
-          #  uses: actions/configure-pages@v4
+          #  uses: actions/configure-pages@v5
 
       - name: Generate pages
         run: |
           export PATH=$PATH:.
           ./mdbook build
-          perl -i -p -e 's{href="index.html"}{href="."}g' book/*.html book/toc.js
-          perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g' book/*.html book/toc.js
+          perl -i -p -e 's{href="index.html"}{href="."}g'           book/toc.js
+          perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g' book/toc.js
+          find book/ -name *.html | xargs perl -i -p -e 's{href="index.html"}{href="."}g'
+          find book/ -name *.html | xargs perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
