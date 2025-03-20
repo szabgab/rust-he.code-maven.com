@@ -60,6 +60,9 @@
   - [פרק 2](./experimental-rust-course-2.md)
   - [פרק 3](./experimental-rust-course-3.md)
 
+
+# ראסט עם דוגמאות
+
 - [ראסט עם דוגמאות](./rust-by-example.md)
   - [שלום עולם](./rust-by-example-hello-world.md)
     - [הערות](./rust-by-example-comments.md)
@@ -79,4 +82,5 @@
     - [אנומים](./rust-by-example-enums.md)
     - [use](./rust-by-example-enums-use.md)
     - [C-like כמו בשפת C](./rust-by-example-enums-c-like.md)
+    - [רשימה מקושרת עם אנומים](./rust-by-example-enums-linked-list.md)
 
