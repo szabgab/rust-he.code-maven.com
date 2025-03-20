@@ -1,7 +1,5 @@
 # ראסט עם דוגמאות
 
-
-
 * 1 [שלום עולם](./rust-by-example-hello-world.md)
   * 1.1 [הערות](./rust-by-example-comments.md)
     * [קרגו ראן](./rust-by-example-cargo-run.md)
@@ -20,6 +18,11 @@
   * 3.1 [סטראקטים - מבנים](./rust-by-example-structures.md)
   * 3.2 [אנומים](./rust-by-example-enums.md)
     * 3.2.1 [use](./rust-by-example-enums-use.md)
+    * 3.2.2 [C-like כמו בשפת C](./rust-by-example-enums-c-like.md)
 
 
-Rust by Example
+<div dir="ltr">
+
+## Rust by Example with explanations in Hebrew
+
+</div>
