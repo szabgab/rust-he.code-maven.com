@@ -78,4 +78,5 @@
     - [סטראקטים - מבנים](./rust-by-example-structures.md)
     - [אנומים](./rust-by-example-enums.md)
     - [use](./rust-by-example-enums-use.md)
+    - [C-like כמו בשפת C](./rust-by-example-enums-c-like.md)
 
