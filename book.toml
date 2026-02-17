@@ -9,7 +9,7 @@ title = "מביני קוד - מביני ראסט"
 # Add github icon to the menu
 [output.html]
 git-repository-url = "https://github.com/szabgab/rust-he.code-maven.com"
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/rust-he.code-maven.com/edit/main/{path}"
 
 # Remove the printer icon from the menu
